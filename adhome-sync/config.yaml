@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: AdGuardHome sync
 version: "0.6.8"
-slug: example
+slug: lextum-adhome-sync
 description: Synchronize AdGuardHome config to replica instances.
 url: "https://github.com/home-assistant/addons-example/tree/main/example"
 arch:
@@ -11,7 +11,7 @@ arch:
   - amd64
 init: false
 map:
-  - share:rw
+  - addon_config:rw
 options:
   message: "Hello world..."
 schema:
