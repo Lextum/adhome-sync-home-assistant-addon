@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Lextum's adhome-sync Home Assistant add-on repository
+url: "https://github.com/Lextum/adhome-sync-home-assistant-addon"
+maintainer: Lextum <5988613+Lextum@users.noreply.github.com>

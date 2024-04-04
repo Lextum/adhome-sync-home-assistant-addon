@@ -1,0 +1,19 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: AdGuardHome sync
+version: "0.6.8"
+slug: example
+description: Synchronize AdGuardHome config to replica instances.
+url: "https://github.com/home-assistant/addons-example/tree/main/example"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/home-assistant/{arch}-addon-example"
